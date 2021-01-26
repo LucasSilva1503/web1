@@ -12,7 +12,8 @@ html { overflow-y: scroll; overflow-x:hidden; }
 
 
 .navbar1{
-    background-color: #dbdbdb2c;
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
    
 }
 
@@ -73,7 +74,17 @@ html { overflow-y: scroll; overflow-x:hidden; }
     width: 300px;
 }
 
-.nav-item li:hover{
+.menu{
+    margin-left: 15px;
+}
+
+#menu { 
+    color: #1f1f1f;
+    font-weight: 700px;
+    font-size: 12px;
+}
+
+#menu:hover{
     color: #3EADCf;
 }
 
@@ -86,12 +97,12 @@ body{
 /*============|Imahe Header|=============*/
 .imghdr{
     background-color: rgb(233, 233, 233);
-    height: 500px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image:linear-gradient(0deg, rgba(41, 41, 41, 0.3), rgba(0, 0, 0, 0.3)), url(./media/imghdr.jpg) ;
+    background-image:linear-gradient(0deg, rgba(17, 17, 17, 0.3), rgba(0, 0, 0, 0.3)), url(./media/imghdr.jpg) ;
     background-size: cover;
 }
 
@@ -103,6 +114,7 @@ body{
 
 .imghdr p{
     color: white;
+    font-weight: 800;
 }
 
 /*============|Card Example|=============*/
