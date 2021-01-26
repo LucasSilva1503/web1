@@ -46,7 +46,7 @@ function procura() {
     divPrincipal.appendChild(div);
   
     // adicionar div pai à pagina/DOM
-    var container = document.getElementById("contentorFilmes");
+    var container = document.getElementById("contentorImagem");
     container.appendChild(divPrincipal);
   }
   
