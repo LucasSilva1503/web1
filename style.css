@@ -8,6 +8,7 @@ html { overflow-y: scroll; overflow-x:hidden; }
     top: 0;
     width: 100%;
     padding: 0px;
+    z-index:1;
 }
 
 
@@ -104,6 +105,7 @@ body{
     flex-direction: column;
     background-image:linear-gradient(0deg, rgba(17, 17, 17, 0.3), rgba(0, 0, 0, 0.3)), url(./media/imghdr.jpg) ;
     background-size: cover;
+    margin-bottom: 20px;
 }
 
 .imghdr h1{
@@ -122,6 +124,7 @@ body{
     background-color: whitesmoke;
     margin-top: 25px;
     border-color: #3EADCf;
+    padding: 5px;
 }
 
 .card img{
@@ -147,9 +150,45 @@ body{
     color: #3EADCf;
 }
 
+.card-text{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
 .cardEdit { /* cadr img */
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
 
+}.footer1{
+    background-color: #1f1f1f;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    color: rgb(240, 240, 240);
+}
+
+.botoesbaixo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin: auto;
+}
+#anterior{
+    margin-top: 15px;
+    color: #3EADCf;
+    border: 2px #3EADCf;
+
+}
+
+#seguinte{
+    margin-top: 15px;
+    color: #3EADCf;
+    border: 2px #3EADCf;
+
+}
+
+.footer1 h1{
+    margin-top: 15px;
 }
